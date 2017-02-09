@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style>
+  /* This tag allows the CSS to be inserted directly on the HTML. See README */
+  
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   * Copyright 2017 Simone Mignami <simone.mig29@gmail.com>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv. 
+   * Created by Christophe-Marie Duquesne.
+   * Modified by Simone Mignami.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  
+  /* The profile image container */
+  div.figure {
+  	float: left;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  }
+  
+  
+  /* Hides eventual picture caption */
+  p.caption {
+  	display: none;
+  }
+  
+  
+  /* Picture */
+  img {
+  	max-height: 180px;
+  	width: auto;
+  	height: auto;
+  }
+  
+  
+  /* Title of the resume */
+  h1 {
+  	float: right;
+  	font-size: 28px;
+      color: #757575;
+      text-align:right;
+  	margin-top: 145px;
+  }
+  
+  /* clear */
+  h1 + hr {
+    clear: both;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      color: #397249;
+  	margin-top: 52px;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      background-color: #9CB770;
+  }
+  
+  /* CV entries */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      font-weight: bold;
+  	word-wrap: normal;
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      font-size: 22px;
+  	text-align: center;
+  	margin-top: 18px;
+  	margin-bottom: 32px;
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  
+  footer {
+  	font-size: small;
+  	color: #222222;
+  	text-align: center;
+  	margin-top: 30px;
+  }
+  
+  </style>
+</head>
+<body>
+<div class="figure">
+<img src="pictures/img.jpg" alt="Foto di Simone Mignami" />
+<p class="caption">Foto di Simone Mignami</p>
+</div>
+<h1 id="simone-mignami">Simone Mignami</h1>
+<hr />
+<blockquote>
+<p>Java &amp; web developer, accessibility frontender, opensource enthusiast</p>
+</blockquote>
+<h2 id="linguaggi-di-programmazione">Linguaggi di programmazione</h2>
+<dl>
+<dt>Java</dt>
+<dd>Plug-in for Eclipse, Lambda expressions, SWT
+</dd>
+<dt>PHP</dt>
+<dd>Yii framework, web service, website
+</dd>
+<dt>Web</dt>
+<dd>HTML5, CSS, SQL
+</dd>
+<dt>Python</dt>
+<dd>Fast prototyping
+</dd>
+<dt>C/C++</dt>
+<dd>Qt, OpenGL, Cuda
+</dd>
+</dl>
+<h2 id="esperienze-professionali">Esperienze professionali</h2>
+<dl>
+<dt>03.2016 - 03.2017</dt>
+<dd><strong>SUPSI / Istituto di Sistemi Informativi e Networking (ISIN, Manno)</strong>. Assistente bachelor in formazione master. <strong>Java developer</strong>, <strong>Eclipse plugin</strong>, <strong>data processing</strong>. (<em>indipendenza</em>, <em>organizzazione</em>, <em>negoziazione</em>)
+</dd>
+</dl>
+<h2 id="formazione">Formazione</h2>
+<dl>
+<dt>09.2012 - 09.2015</dt>
+<dd><strong>Bachelor of science in ingegneria informatica</strong>, Scuola Universitaria Professionale della Svizzera Italiana (SUPSI, Manno)
+</dd>
+<dt>09.2005 - 09.2009</dt>
+<dd><strong>Diploma liceale</strong>, Liceo Lugano 2, Savosa
+</dd>
+</dl>
+<h2 id="lingue-parlate">Lingue parlate</h2>
+<dl>
+<dt>Italiano</dt>
+<dd>Madrelingua
+</dd>
+<dt>Inglese</dt>
+<dd>B2, livello intermedio superiore
+</dd>
+<dt>Francese</dt>
+<dd>B2, livello intermedio superiore
+</dd>
+<dt>Tedesco</dt>
+<dd>B1, livello intermedio
+</dd>
+</dl>
+<h2 id="progetti-e-conferenze">Progetti e conferenze</h2>
+<dl>
+<dt>27.05.2015, 18.05.2016</dt>
+<dd><strong>Relatore GAAD</strong>, <strong>Frontenders Ticino</strong>, <strong>web accessibility</strong>
+</dd>
+<dt>07.2016 - Oggi</dt>
+<dd>Sviluppatore part-time del progetto <strong>ContextVox</strong> (open-source). <strong>Text-to-speech</strong>, <strong>programmazione</strong>, <strong>cecità</strong>, <strong>produttività</strong>
+</dd>
+</dl>
+<h2 id="organizzazioni-no-profit">Organizzazioni no-profit</h2>
+<dl>
+<dt>10.2011 - Oggi</dt>
+<dd>Membro di comitato, Gruppo Ticinese Sportivi Ciechi ed Ipovedenti (GTSC). <strong>Supporto tecnico</strong>, <strong>public relation</strong>, <strong>verbalista</strong>. (<em>mediazione</em>, <em>responsabilità</em>, <em>collegialità</em>)
+</dd>
+<dt>05.2012 - Oggi</dt>
+<dd>Membro delegato, Federazione Svizzera dei Ciechi (FSA). <strong>Mediatore</strong>, <strong>difesa minoranza linguistica</strong>, <strong>dibattiti</strong>. (<em>perseguimento obiettivi</em>, <em>decisione</em>, <em>flessibilità</em>)
+</dd>
+</dl>
+<footer>
+	<hr />
+	<p>
+		Ing. Simone Mignami, Lugano (Svizzera)<br />
+		Email:	simone.mig29@gmail.com
+	</p>
+</footer>
+</body>
+</html>
