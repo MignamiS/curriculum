@@ -5,8 +5,6 @@ Curriculum Vitae with Markdown
 This is an example on how create a CV using Markdown.
 The output file will be an HTML page "all inclusive". It can also be converted into PDF.
 
-See the [final result](page_example.html).
-
 
 
 File list
